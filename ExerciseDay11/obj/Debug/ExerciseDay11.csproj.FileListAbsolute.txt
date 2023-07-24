@@ -1,0 +1,8 @@
+C:\Users\user\source\repos\ExerciseDay11\ExerciseDay11\obj\Debug\ExerciseDay11.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ExerciseDay11\ExerciseDay11\obj\Debug\ExerciseDay11.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\ExerciseDay11\ExerciseDay11\obj\Debug\ExerciseDay11.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ExerciseDay11\ExerciseDay11\bin\Debug\ExerciseDay11.exe.config
+C:\Users\user\source\repos\ExerciseDay11\ExerciseDay11\bin\Debug\ExerciseDay11.exe
+C:\Users\user\source\repos\ExerciseDay11\ExerciseDay11\bin\Debug\ExerciseDay11.pdb
+C:\Users\user\source\repos\ExerciseDay11\ExerciseDay11\obj\Debug\ExerciseDay11.exe
+C:\Users\user\source\repos\ExerciseDay11\ExerciseDay11\obj\Debug\ExerciseDay11.pdb

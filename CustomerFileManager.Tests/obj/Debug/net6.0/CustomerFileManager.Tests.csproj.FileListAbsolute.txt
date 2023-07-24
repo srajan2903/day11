@@ -1,0 +1,5 @@
+C:\Users\user\source\repos\ExerciseDay11\CustomerFileManager.Tests\obj\Debug\net6.0\CustomerFileManager.Tests.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ExerciseDay11\CustomerFileManager.Tests\obj\Debug\net6.0\CustomerFileManager.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\ExerciseDay11\CustomerFileManager.Tests\obj\Debug\net6.0\CustomerFileManager.Tests.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\ExerciseDay11\CustomerFileManager.Tests\obj\Debug\net6.0\CustomerFileManager.Tests.AssemblyInfo.cs
+C:\Users\user\source\repos\ExerciseDay11\CustomerFileManager.Tests\obj\Debug\net6.0\CustomerFileManager.Tests.csproj.CoreCompileInputs.cache
