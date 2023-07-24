@@ -1,24 +1,32 @@
+using CustomerFileManager.Tests;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-namespace CustomerFileManager.Tests
+
+namespace TestProject1
 {
     [TestClass]
-    public class CustomerFileMnagerTests
+    public class CustomerFileManagerTests
     {
+        [TestInitialize]
+        public void Initialize()
+        {
+            ExerciseDay11.CustomerDirectory.CreateCustomerFolder();
+        }
+
         [TestMethod]
         public void TestWriteAndReadCustomer()
         {
-            Customer customer = new Customer(1, "John", new DateTime(1990, 5, 15));
-            CustomerFileManager.WriteCustomerToFile(customer);
+            // Arrange
+            ExerciseDay11.Customer customer = new ExerciseDay11.Customer(1, "John", new DateTime(2001, 5, 15));
 
-          
-            
-            Customer retrievedCustomer = CustomerFileManager.ReadCustomerFromFile("John_19900515.dat");
+            // Act
+            ExerciseDay11.CustomerFileManager.WriteCustomerToFile(customer);
+            ExerciseDay11.Customer retrievedCustomer = ExerciseDay11.CustomerFileManager.ReadCustomerFromFile("John_20010515.dat");
+
+            // Assert
             Assert.AreEqual(customer.Id, retrievedCustomer.Id);
             Assert.AreEqual(customer.Name, retrievedCustomer.Name);
             Assert.AreEqual(customer.DateOfBirth, retrievedCustomer.DateOfBirth);
-
-
         }
     }
 }
